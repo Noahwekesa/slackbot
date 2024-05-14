@@ -16,6 +16,10 @@ DEBUG = True
 ALLOWED_HOSTS = ["127.0.0.1", ".vercel.app"]
 
 
+# csrf trust origin
+
+CSRF_TRUSTED_ORIGINS = ["https://project-bot.vercel.app"]
+
 # Application definition
 
 INSTALLED_APPS = [
