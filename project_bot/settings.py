@@ -18,7 +18,7 @@ ALLOWED_HOSTS = ["127.0.0.1", ".vercel.app"]
 
 # csrf trust origin
 
-CSRF_TRUSTED_ORIGINS = ["https://project-bot.vercel.app"]
+CSRF_TRUSTED_ORIGINS = ["https://slackbot-delta-one.vercel.app"]
 
 # Application definition
 
