@@ -18,11 +18,10 @@ SECRET_KEY = "%*m90)=yju0+$z6-g2_j9buax40w)2c-85!aw(#(si9-jd^+73"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", ".vercel.app"]
+ALLOWED_HOSTS = [".vercel.app"]
 
 
-# csrf trust origin
-
+# https://docs.djangoproject.com/en/5.0/ref/settings/#csrf-trusted-origins
 CSRF_TRUSTED_ORIGINS = ["https://slackbot-delta-one.vercel.app"]
 
 # Application definition
